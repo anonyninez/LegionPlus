@@ -83,7 +83,7 @@ MatCPU: --matcpu <none, struct, cpu>
 Asset List
 ```
 Keyboard
-P - open preview window for currently selected asset
+Space - open preview window for currently selected asset
 E - extract currently selected assets
 
 Mouse
@@ -92,9 +92,9 @@ Right Click - copies the names of the currently selected assets to clipboard
 
 Preview
 ```
-Alt + Left Click - move mouse to pivot camera around target
-Alt + Right Click - move mouse to zoom in and out of the target
-Alt + Middle Click - move mouse to pan camera
+Left Click - move mouse to pivot camera around target
+Right Click - move mouse to zoom in and out of the target
+Middle Click - move mouse to pan camera
 ```
 ---
 

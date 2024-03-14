@@ -775,7 +775,7 @@ void LegionMain::OnListKeyUp(const std::unique_ptr<KeyEventArgs>& EventArgs, For
 	{
 		((LegionMain*)Sender->FindForm())->ExportSingleAsset();
 	}
-	else if (EventArgs->KeyCode() == Keys::P)
+	else if (EventArgs->KeyCode() == Keys::Space)
 	{
 		LegionMain* Form = (LegionMain*)Sender->FindForm();
 
