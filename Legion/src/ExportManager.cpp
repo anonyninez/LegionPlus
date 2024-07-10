@@ -237,6 +237,9 @@ void ExportManager::ExportRpakAssets(const std::unique_ptr<RpakLib>& RpakFileSys
 			case (uint32_t)AssetType_t::Wrap:
 				RpakFileSystem->ExportWrap(AssetToExport, IO::Path::Combine(ExportDirectory, "wraps"));
 				break;
+			//case (uint32_t)AssetType_t::Effect:
+			//	RpakFileSystem->ExportWrap(AssetToExport, IO::Path::Combine(ExportDirectory, "effect"));
+			//	break;
 			}
 
 			IsCancel = StatusCallback(Asset.AssetIndex, MainForm);

@@ -60,7 +60,7 @@ void LegionSplash::InitializeComponent()
 
 void LegionSplash::SleepTimer(void* Sender)
 {
-	Sleep(2500);
+	Sleep(500);
 	// Close the splash
 	((LegionSplash*)Sender)->Close();
 }

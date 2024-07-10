@@ -1158,7 +1158,7 @@ bool RpakLib::MountApexRpak(const string& Path, bool Dump)
 #if _DEBUG
 	if (Dump)
 	{
-		auto OutStream = IO::File::Create(IO::Path::Combine("D:\\", IO::Path::GetFileName(Path)));
+		auto OutStream = IO::File::Create(IO::Path::Combine("C:\\Users\\justacomputer\\Desktop\\APEXMOD\\src\\LegionPlus\\bin\\x64\\Debug", IO::Path::GetFileName(Path)));
 		ResultStream->CopyTo(OutStream.get());
 		ResultStream->SetPosition(0);
 	}
